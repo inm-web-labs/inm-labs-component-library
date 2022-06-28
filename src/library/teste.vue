@@ -3,6 +3,7 @@
 </template>
 
 <script setup>
+const props = defineProps([])
 const handler = () => {
     console.log('teste handler clicked')
 }

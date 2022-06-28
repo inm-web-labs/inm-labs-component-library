@@ -1,12 +1,10 @@
-import components from '@/components'
+import componentsList from'./components'
 
 const plugin = {
     install (Vue) {
-        for (const prop in components) {
-            if(components.hasOwnProperty(prop)) {
-                const component = component[prop]
-                Vue.component(component.name, component)
-            }
+        for (const entry in componentsList) {
+            const component = componentsList[entry]
+            Vue.component(component.name, component.component)
         }
     }
 }

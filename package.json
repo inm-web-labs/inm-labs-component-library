@@ -1,6 +1,6 @@
 {
     "name": "inm-labs-component-library",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "",
     "main": "dist/library.js",
     "module": "dist/library.mjs",
@@ -11,8 +11,7 @@
     "author": "",
     "license": "ISC",
     "files": [
-        "dist/*",
-        "src/library/*"
+        "dist/*"
     ],
     "peerDependencies": {
         "vue": "^3.2.21"
