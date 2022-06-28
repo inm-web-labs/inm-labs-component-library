@@ -1,0 +1,25 @@
+{
+    "name": "inm-labs-component-library",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/library.js",
+    "module": "dist/library.mjs",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "files": [
+        "dist/*",
+        "src/library/*"
+    ],
+    "peerDependencies": {
+        "vue": "^3.2.21"
+    },
+    "devDependencies": {
+        "rollup": "^2.75.7",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-vue": "^6.0.0"
+    }
+}
