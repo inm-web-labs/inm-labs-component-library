@@ -19,8 +19,8 @@
     "module": "dist/library.mjs",
     "scripts": {
         "build": "rollup -c",
-        "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs"
+        "docs:dev": "vuepress dev vuepress",
+        "docs:build": "vuepress build vuepress"
     },
     "peerDependencies": {
         "vue": "^3.2.21"
