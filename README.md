@@ -3,6 +3,8 @@
 This is mostly a library of components we use internally, so if you dont really want the whole package we also have
 the components as a standalone so you can pick only the one you need instead of the whole library
 
+The full documentation can be found here : https://inm-web-labs.github.io/inm-labs-component-library/
+
 ## To Install
 ```
 npm install --save inm-labs-component-library
