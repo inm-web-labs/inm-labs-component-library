@@ -19,10 +19,11 @@ app.use(ComponentLibrary)
 
 Options allow you to customize how the input will format the amount as you type.
 
-| Name | Description | Npm |
-| :----------------: | :-----------:  | :-----------:  |
-| `vue-amount-format-input` | Input with format for amounts | `https://www.npmjs.com/package/vue-amount-format-input` |
+| Name | Description |
+| :----------------: | :-----------:  |
+| `vue-amount-format-input` | Input with format for amounts |
 
-##Changelog
+## Changelog
 
 - 0.0.6 - added README
+- 0.0.7 - updated README
