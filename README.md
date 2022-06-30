@@ -27,5 +27,4 @@ Options allow you to customize how the input will format the amount as you type.
 
 ## Changelog
 
-- 0.0.6 - added README
-- 0.0.7 - updated README
+- 0.0.8 - updated README
