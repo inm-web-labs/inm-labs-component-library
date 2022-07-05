@@ -17,7 +17,7 @@ module.exports = {
                 text: 'Components',
                 collapsable: true,
                 children: [
-                    '/components/vue-amount-format-input.md'
+                    '/components/vue-format-amount-input.md'
                 ]
             }
         ],

@@ -1,5 +1,5 @@
 import teste from './library/teste.vue'
-import amountFormat from './library/vue-amount-format-input.vue'
+import amountFormat from './library/vue-format-amount-input.vue'
 
 export default [
     {
