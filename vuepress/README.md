@@ -3,7 +3,9 @@
 This is mostly a library of components we use internally, so if you dont really want the whole package we also have
 the components as a standalone so you can pick only the one you need instead of the whole library
 
-## Install
+The full documentation can be found here : https://inm-web-labs.github.io/inm-labs-component-library/
+
+## To Install
 ```
 npm install --save inm-labs-component-library
 ```
@@ -21,9 +23,8 @@ Options allow you to customize how the input will format the amount as you type.
 
 | Name | Description |
 | :----------------: | :-----------:  |
-| `vue-amount-format-input` | Input with format for amounts |
+| `vue-format-amount-input` | Input with format for amounts |
 
 ## Changelog
 
-- 0.0.6 - added README
-- 0.0.7 - updated README
+- 0.0.9 - update vue-format-amount-input component
