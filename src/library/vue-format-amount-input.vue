@@ -280,7 +280,6 @@ const keydownHandler = $event => {
 @return { void }
 */
 const blurHandler = $event => {
-	emit('blur', $event)
 	inputOnFocus.value = false
 
 	const valueWithoutCurrency = removeCurrencySymbol(_value.value)
@@ -303,6 +302,7 @@ const blurHandler = $event => {
 	} else {
 		setCurrencyShowValue(false)
 	}
+	setTimeout(() => emit('blur', $event))
 }
 
 /* Logic to display currencySymbol on Focus / mouseOverHandler / mouseLeaveHandler, when input is empty */
