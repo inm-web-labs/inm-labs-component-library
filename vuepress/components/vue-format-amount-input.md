@@ -23,7 +23,7 @@ Options allow you to customize how the input will format the amount as you type.
 | :----------------: | :-----------:  | :-----------:  |
 | `digitGroupSeparator` | Thousands group separator | `null` |
 | `decimalChar` | Decimal separator character. Allowed values: `.` `,` `٫` | `.` |
-| `alwaysAllowDecimalCharacter | Allows/Disables decimals in amounts | `true` |
+| `alwaysAllowDecimalCharacter` | Allows/Disables decimals in amounts | `true` |
 | `showCurrencyOnFocus` | Defines if currency should be shown on input focus | `false` |
 | `showCurrencyOnHover` | Defines if currency should be shown on input hover | `false` |
 | `currencySymbol` | Defines currency symbol to display | `null` |
@@ -52,3 +52,5 @@ options = {
 ## Changelog
 
 - 0.1.13 - update vue-format-amount-input component blurEvent
+- 0.1.14 - build fixing
+- 0.1.15 - fixed behaviour of hover/focus when no currency is provided

@@ -27,4 +27,4 @@ Options allow you to customize how the input will format the amount as you type.
 
 ## Changelog
 
-- 0.0.10 - update vue-format-amount-input component
+- 0.0.11 - fixed behaviour of hover/focus when no currency is provided
