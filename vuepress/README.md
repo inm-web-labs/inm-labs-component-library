@@ -28,3 +28,4 @@ Options allow you to customize how the input will format the amount as you type.
 ## Changelog
 
 - 0.0.11 - fixed behaviour of hover/focus when no currency is provided
+- 0.0.12 - fixed currency length validator when no currency is provided
