@@ -28,3 +28,4 @@ Options allow you to customize how the input will format the amount as you type.
 ## Changelog
 
 - 0.0.13 - updated blur function when no currency is provided
+- 0.1.14 - added option to have negative amounts to vue-format-amount-input
