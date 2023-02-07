@@ -648,7 +648,9 @@ const applyingCurrencySymbol = value => {
 @return { String }
 */
 const removeCurrencySymbol = value => {
-	return value.replace(` ${options.value.currencySymbol}`, '').replace(`${options.value.currencySymbol} `, '')
+	if (options.value.currencySymbol.length) {
+		return value.replace(` ${options.value.currencySymbol}`, '').replace(`${options.value.currencySymbol} `, '')
+	} else return value
 }
 
 /*
@@ -659,9 +661,6 @@ const removeCurrencySymbol = value => {
 @return { String }
 */
 const changeCurrencySymbol = (value, newCurrency, oldCurrency) => {
-	console.log(value, 'value')
-	console.log(newCurrency, 'newVal')
-	console.log(oldCurrency, 'oldVal')
 	return value.replace(oldCurrency, newCurrency)
 }
 
