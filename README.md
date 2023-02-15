@@ -35,3 +35,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.18 - fixed variable used to compare maxValue and validation
 - 0.0.19 - VueFormatAmountInput: Fixed logic behind removing currency from value; Removed console.logs
 - 0.0.20 - VueFormatAmountInput: fixed logic when on clear of value, currency would be showed; fixed setSelectionRange to only be trigger if user is focus on input
+- 0.0.21 - VueFormatAmountInput: Fixed maxValue validations and handling; Fixing replacing numbers
