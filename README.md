@@ -39,3 +39,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.22 - VueFormatAmountInput: Fixed maxValue validations for decimals and numbers with currencies
 - 0.0.23 - VueFormatAmountInput: Fixed maxValue validation when number has same length; fixed validation when swapping amounts
 - 0.0.24 - VueFormatAmountInput: Added watch to handleMaxValue change on input lifetime
+- 0.0.25 - Added logic on initial value setup, so decimals (when allowed) are showed on mounted
