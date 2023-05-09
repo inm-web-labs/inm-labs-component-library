@@ -41,3 +41,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.24 - VueFormatAmountInput: Added watch to handleMaxValue change on input lifetime
 - 0.0.25 - Added logic on initial value setup, so decimals (when allowed) are showed on mounted
 - 0.0.26 - Fixed validation for maxValue on initial render with value
+- 0.0.27 - Added missing validation before trying to stringify value
