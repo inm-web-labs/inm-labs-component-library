@@ -43,3 +43,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.26 - Fixed validation for maxValue on initial render with value
 - 0.0.27 - Added missing validation before trying to stringify value
 - 0.0.28 - Added missing validations for value on watch
+- 0.0.29 - Fixed blur logic when value is empty
