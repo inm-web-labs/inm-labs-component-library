@@ -47,3 +47,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.30 - VueFormatAmountInput: Added inputMode to input, and option to help define inputMode specifc for iOS apps/browsers
 - 0.0.31 - VueFormatAmountInput: Added logic for pasted values when they fall out of maxValue
 - 0.0.32 - VueFormatAmountInput: Fixed validation for decimalsChars; Fixed maxValue logic when having decimals
+- 0.0.33 - VueFormatAmountInput: Fixed formating value before emiting it when its value is negative
