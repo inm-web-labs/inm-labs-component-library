@@ -49,3 +49,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.32 - VueFormatAmountInput: Fixed validation for decimalsChars; Fixed maxValue logic when having decimals
 - 0.0.33 - VueFormatAmountInput: Fixed formating value before emiting it when its value is negative
 - 0.0.34 - VueFormatAmountInput: Added logic to prevent zeros at left of natural number
+- 0.0.35 - VueFormatAmountInput: Fixed bug removing zeros before decimal char and also removing decimal char
