@@ -51,3 +51,4 @@ Options allow you to customize how the input will format the amount as you type.
 - 0.0.34 - VueFormatAmountInput: Added logic to prevent zeros at left of natural number
 - 0.0.35 - VueFormatAmountInput: Fixed bug removing zeros before decimal char and also removing decimal char
 - 0.0.36 - VueFormatAmountInput: Fixed bug where inputValue being 0 would be treated as falsy validation
+- 0.0.37 - VueFormatAmountInput: Added logic on currency watch for when no currency exists
